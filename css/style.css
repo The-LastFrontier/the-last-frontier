@@ -3,6 +3,8 @@ body {
     background: #17130f;
     color: #e8dcc8;
     font-family: Georgia, serif;
+    text-align: center;
+
 }
 
 header {
@@ -17,7 +19,6 @@ main {
 
 h1 {
     font-size: 36px;
-    text-align: center;
 
 }
 
