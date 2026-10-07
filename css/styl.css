@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background: #17130f;
+    color: #e8dcc8;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+header {
+    padding: 40px;
+}
+
+main {
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #8b5e34;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
