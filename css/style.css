@@ -42,14 +42,11 @@ ul {
   overflow: hidden;
   background-color: #333333;
   justify-content: center;
-  align-items: center;
 }
 
 ul li a {
   display: block;
   color: white;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
