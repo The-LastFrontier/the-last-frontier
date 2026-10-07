@@ -3,7 +3,6 @@ body {
     background: #17130f;
     color: #e8dcc8;
     font-family: Georgia, serif;
-    text-align: center;
 }
 
 header {
@@ -16,11 +15,15 @@ main {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 36px;
+    text-align: left;
+
 }
 
 h2 {
     font-size: 64px;
+    text-align: center;
+
 }
 
 a {
