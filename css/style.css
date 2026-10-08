@@ -84,41 +84,38 @@ li.dropdown {
   display: block;
 }
 
-.server-status {
+/* Server Status */
+
+.server-status { 
     margin: 50px auto;
     padding: 25px;
     max-width: 400px;
-
-    background: #211a14;
+    background: #211a14; 
     border: 1px solid #8b5e34;
     border-radius: 5px;
-
     text-align: center;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
-.status-indicator {
+.status-indicator { 
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-
     color: #72c472;
     font-size: 20px;
     font-weight: bold;
 }
 
-.status-dot {
+#status-dot { 
     width: 10px;
     height: 10px;
-
     background: #72c472;
     border-radius: 50%;
-
     box-shadow: 0 0 10px #72c472;
 }
 
-.player-count {
+#player-count {
     margin-top: 12px;
     font-size: 18px;
     color: #e8dcc8;
