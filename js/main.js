@@ -26,15 +26,16 @@ async function getPlayerCount() {
         statusDot.style.background = "#72c472";
         statusDot.style.boxShadow = "0 0 10px #72c472";
 
-    } catch (error) {
+} catch (error) {
+    console.error("FiveM status check failed:", error);
 
-        status.textContent = "OFFLINE";
-        playerCount.textContent = "Server is currently unavailable";
+    status.textContent = "OFFLINE";
+    playerCount.textContent = "Server is currently unavailable";
 
-        status.style.color = "#c45c5c";
-        statusDot.style.background = "#c45c5c";
-        statusDot.style.boxShadow = "0 0 10px #c45c5c";
-    }
+    status.style.color = "#c45c5c";
+    statusDot.style.background = "#c45c5c";
+    statusDot.style.boxShadow = "0 0 10px #c45c5c";
+}
 }
 
 getPlayerCount();
