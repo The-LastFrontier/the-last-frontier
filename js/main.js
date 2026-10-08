@@ -1,4 +1,4 @@
-const PROXY_URL = "fivem-proxy.php"; // path to your proxy, e.g. "/api/players" if using Node
+const PROXY_URL = "the-last-frontier.bjsmith781.workers.dev"; // path to your proxy, e.g. "/api/players" if using Node
 
 async function getPlayerCount() {
     const status = document.getElementById("server-status");
