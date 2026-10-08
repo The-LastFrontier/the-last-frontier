@@ -1,5 +1,3 @@
-const serverCode = 'bo9pg8';
-
 const serverIP = "89.31.216.152";
 const serverPort = "30120";
 
@@ -42,6 +40,4 @@ async function getPlayerCount() {
 }
 
 getPlayerCount();
-
 setInterval(getPlayerCount, 30000);
-
