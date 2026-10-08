@@ -1,4 +1,4 @@
-const PROXY_URL = "thelastfrontier.bjsmith781.workers.dev"; // ← your actual Worker URL
+const PROXY_URL = "https://thelastfrontier.bjsmith781.workers.dev"; // ← your actual Worker URL
 
 async function getPlayerCount() {
     const status = document.getElementById("server-status");
