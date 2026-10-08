@@ -1,4 +1,4 @@
-const serverCode = lyy7rv;
+const serverCode = 'lyy7rv';
 
 async function getPlayerCount() {
     try {
