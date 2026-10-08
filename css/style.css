@@ -108,7 +108,7 @@ li.dropdown {
     font-weight: bold;
 }
 
-#status-dot {
+.status-dot {
     width: 10px;
     height: 10px;
 
@@ -118,7 +118,7 @@ li.dropdown {
     box-shadow: 0 0 10px #72c472;
 }
 
-#player-count {
+.player-count {
     margin-top: 12px;
     font-size: 18px;
     color: #e8dcc8;
