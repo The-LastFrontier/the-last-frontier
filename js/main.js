@@ -1,4 +1,4 @@
-const PROXY_URL = "the-last-frontier.bjsmith781.workers.dev"; // path to your proxy, e.g. "/api/players" if using Node
+const PROXY_URL = "the-last-frontier.bjsmith781.workers.dev"; // ← your actual Worker URL
 
 async function getPlayerCount() {
     const status = document.getElementById("server-status");
@@ -14,12 +14,8 @@ async function getPlayerCount() {
 
         const data = await response.json();
 
-        // Handles both the PHP proxy (passes dynamic.json through)
-        // and the Node proxy ({ players, maxPlayers })
-        if (data.error) throw new Error("offline");
-
-        const players = data.clients ?? data.players ?? 0;
-        const maxPlayers = data.sv_maxclients ?? data.maxPlayers ?? 0;
+        const players = data.clients ?? 0;
+        const maxPlayers = data.sv_maxclients ?? 0;
 
         status.textContent = "ONLINE";
         playerCount.textContent = `${players} / ${maxPlayers} Players`;
@@ -29,6 +25,8 @@ async function getPlayerCount() {
         statusDot.style.boxShadow = "0 0 10px #72c472";
 
     } catch (error) {
+        console.error("Server status check failed:", error);
+
         status.textContent = "OFFLINE";
         playerCount.textContent = "Server is currently unavailable";
 
