@@ -38,3 +38,6 @@ async function getPlayerCount() {
 }
 
 getPlayerCount();
+
+setInterval(getPlayerCount, 30000);
+
