@@ -1,4 +1,4 @@
-const serverCode = 'lyy7rv';
+const serverCode = 'bo9pg8';
 
 async function getPlayerCount() {
     const status = document.getElementById("server-status");
