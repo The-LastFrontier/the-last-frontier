@@ -153,6 +153,7 @@ a {
 }
 .rule-header h3 {
     font-size: 14px;
+    text-decoration-line: underline;
 
 }
 .rule-header main {
