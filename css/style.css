@@ -130,3 +130,13 @@ a {
     text-decoration: none;
     margin-top: 30px;
 }
+
+
+/* overides */
+
+.rule-header h2 {
+    font-size: 32px;
+
+
+}
+
