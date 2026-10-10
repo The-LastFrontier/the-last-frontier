@@ -151,7 +151,10 @@ a {
     font-size: 18px;
 
 }
+.rule-header h3 {
+    font-size: 14px;
 
+}
 .rule-header main {
     max-width: 900px;
     margin: 5px auto;
