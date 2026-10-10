@@ -133,6 +133,13 @@ a {
 
 
 /* overides */
+.rule-header header {
+    padding: 5px;
+  text-align: center;
+  text-align-last: center;
+}
+
+
 .rule-header h1 {
     font-size: 24px;
     text-decoration-line: underline;
