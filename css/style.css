@@ -208,6 +208,15 @@ a {
     margin: 5;
 }
 
+.rule-item ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
 .rule-warning {
     background: #2b1c17;
     border: 1px solid #88513b;
