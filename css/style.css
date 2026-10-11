@@ -203,7 +203,7 @@ a {
 
 }
 .rule-item p {
-    background: transparent;
+    background: none;
     color: #c8bba7;
     line-height: 1.8;
     margin: 3px;
@@ -217,12 +217,16 @@ a {
     overflow: visible;
     background: none;
     text-align: left;
+    list-style-position: outside;
+
 }
 
 .rule-item ul li {
     display: list-item;
     text-align: left;
     margin-bottom: 8px;
+    list-style-position: outside;
+
 }
 
 .rule-item ul li a {
