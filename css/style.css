@@ -205,15 +205,37 @@ a {
 .rule-item p {
     color: #c8bba7;
     line-height: 1.8;
-    margin: 5;
+    margin: 3px;
 }
 
 .rule-item ul {
-list-style-type: circle;
+    display: block;
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 25px;
+    overflow: visible;
+    background: none;
+    text-align: left;
 }
+
+.rule-item ul li {
+    display: list-item;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
 .rule-item ul li a {
-  text-align: center;
-  padding: 14px 16px;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: #c8bba7;
+    text-decoration: underline;
+}
+
+.rule-item ul li a:hover {
+    background: none;
+    color: #d1a465;
 }
 .rule-warning {
     background: #2b1c17;
