@@ -195,6 +195,13 @@ a {
     margin: 0 0 8px;
 }
 
+.rule-item h4 {
+    color: #e8dcc8;
+    font-size: 17px;
+    margin: 0 0 8px;
+    text-decoration-line: underline;
+
+}
 .rule-item p {
     color: #c8bba7;
     line-height: 1.8;
