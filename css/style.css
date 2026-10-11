@@ -132,36 +132,135 @@ a {
 }
 
 
-/* overides */
-.rule-header header {
-    padding: 5px;
-  text-align: center;
-  text-align-last: center;
+
+/* Rules page */
+.rules-page {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 20px;
 }
 
-
-.rule-header h1 {
-    font-size: 26px;
-    text-decoration-line: underline;
-
+.rules-intro {
+    text-align: center;
+    margin-bottom: 45px;
 }
 
-
-.rule-header h2 {
-    font-size: 18px;
-
+.rules-intro h1 {
+    color: #e8dcc8;
+    font-size: clamp(32px, 5vw, 48px);
+    margin-bottom: 10px;
 }
-.rule-header h3 {
-    font-size: 18px;
-    text-decoration-line: underline;
 
+.rules-intro p {
+    color: #bba88e;
+    font-size: 17px;
+    line-height: 1.7;
 }
-.rule-header main {
-    max-width: 900px;
-    margin: 5px auto;
-  text-align: center;
-  text-align-last: center;
 
-
+.rule-card {
+    background: linear-gradient(145deg, #292117, #201a14);
+    border: 1px solid #59432c;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.2s, transform 0.2s;
 }
+
+.rule-card:hover {
+    border-color: #a47b49;
+    transform: translateY(-2px);
+}
+
+.rule-card h2 {
+    color: #d1a465;
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #59432c;
+    padding-bottom: 12px;
+}
+
+.rule-item {
+    padding: 14px 16px;
+    margin-top: 12px;
+    background: rgba(255, 255, 255, 0.025);
+    border-left: 3px solid #8b5e34;
+    border-radius: 3px;
+}
+
+.rule-item h3 {
+    color: #e8dcc8;
+    font-size: 19px;
+    margin: 0 0 8px;
+}
+
+.rule-item p {
+    color: #c8bba7;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.rule-warning {
+    background: #2b1c17;
+    border: 1px solid #88513b;
+    border-left: 5px solid #b66d4b;
+    border-radius: 8px;
+    padding: 24px 28px;
+    margin: 25px 0;
+}
+
+.rule-warning h2 {
+    color: #e5a078;
+    margin-top: 0;
+}
+
+.rule-warning p {
+    color: #e8d5c4;
+    line-height: 1.8;
+}
+
+.rule-warning .report-note {
+    color: #e5a078;
+    font-weight: bold;
+}
+
+.rules-footer {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.rules-footer a {
+    display: inline-block;
+    background: #8b5e34;
+    color: #fff1dc;
+    padding: 14px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.rules-footer a:hover {
+    background: #a47b49;
+}
+
+@media (max-width: 600px) {
+    .rules-page {
+        padding: 14px;
+        margin: 30px auto;
+    }
+
+    .rule-card {
+        padding: 20px 16px;
+    }
+
+    .rule-card h2 {
+        font-size: 23px;
+    }
+
+    .rule-warning {
+        padding: 20px 16px;
+    }
+}
+
 
