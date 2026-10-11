@@ -211,7 +211,10 @@ a {
 .rule-item ul {
 list-style-type: circle;
 }
-
+.rule-item ul li a {
+  text-align: center;
+  padding: 14px 16px;
+}
 .rule-warning {
     background: #2b1c17;
     border: 1px solid #88513b;
