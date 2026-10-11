@@ -203,6 +203,7 @@ a {
 
 }
 .rule-item p {
+    background: transparent;
     color: #c8bba7;
     line-height: 1.8;
     margin: 3px;
