@@ -209,11 +209,7 @@ a {
 }
 
 .rule-item ul {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
+list-style-type: circle;
 }
 
 .rule-warning {
