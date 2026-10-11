@@ -230,6 +230,15 @@ a {
     margin: 40px 0;
 }
 
+.rule-card h2 {
+    color: #d1a465;
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #59432c;
+    padding-bottom: 12px;
+}
+
 .rules-footer a {
     display: inline-block;
     background: #8b5e34;
