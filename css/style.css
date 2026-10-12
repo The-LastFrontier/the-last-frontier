@@ -294,6 +294,71 @@ a {
     background: #a47b49;
 }
 
+.install-page {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.install-intro {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.install-intro h1 {
+    color: #e8dcc8;
+    font-size: clamp(32px, 5vw, 48px);
+    margin-bottom: 10px;
+}
+
+.install-intro p {
+    color: #bba88e;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.install-card {
+    background: linear-gradient(145deg, #292117, #201a14);
+    border: 1px solid #59432c;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.install-card:hover {
+    border-color: #a47b49;
+    transform: translateY(-2px);
+}
+
+.install-card h2 {
+    color: #d1a465;
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #59432c;
+    padding-bottom: 12px;
+}
+
+.install-item {
+    padding: 14px 16px;
+    margin-top: 12px;
+    background: rgba(255, 255, 255, 0.025);
+    border-left: 3px solid #8b5e34;
+    border-radius: 3px;
+}
+
+.install-item h3 {
+    color: #e8dcc8;
+    font-size: 19px;
+    margin: 0 0 8px;
+}
+
+.install-footer {
+    text-align: center;
+    margin: 40px 0;
+}
 @media (max-width: 600px) {
     .rules-page {
         padding: 14px;
@@ -311,6 +376,24 @@ a {
     .rule-warning {
         padding: 20px 16px;
     }
+
+    .install-page {
+        padding: 14px;
+        margin: 30px auto;
+    }
+
+    .install-card {
+        padding: 20px 16px;
+    }
+
+    .install-card h2 {
+        font-size: 23px;
+    }
+
+    .install-warning {
+        padding: 20px 16px;
+    }
+    
 }
 
 
