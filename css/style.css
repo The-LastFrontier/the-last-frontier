@@ -517,7 +517,15 @@ div.gallery-item div.desc {
   text-align: center;
 }
 
+.team-intro h1 {
+    color: #e8dcc8;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
 
+.team-intro h2 {
+    font-size: 32px;
+}
 
 @media (max-width: 600px) {
     .rules-page {
