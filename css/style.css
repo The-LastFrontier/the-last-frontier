@@ -367,7 +367,6 @@ a {
     overflow: visible;
     background: none;
     text-align: left;
-    list-style-position: outside;
 
 }
 
@@ -375,7 +374,6 @@ a {
     display: list-item;
     text-align: left;
     margin-bottom: 8px;
-    list-style-position: outside;
 
 }
 
