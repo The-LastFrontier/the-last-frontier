@@ -391,7 +391,104 @@ a {
     color: #d1a465;
 }
 
+/* lore page */
 
+.lore-page {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.lore-intro {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.lore-intro h1 {
+    color: #e8dcc8;
+    font-size: clamp(32px, 5vw, 48px);
+    margin-bottom: 10px;
+}
+
+.lore-intro p {
+    color: #bba88e;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.lore-card {
+    background: linear-gradient(145deg, #292117, #201a14);
+    border: 1px solid #59432c;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin-bottom: 24px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.lore-card:hover {
+    border-color: #a47b49;
+    transform: translateY(-2px);
+}
+
+.lore-card h2 {
+    color: #d1a465;
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #59432c;
+    padding-bottom: 12px;
+}
+
+.lore-item {
+    padding: 14px 16px;
+    margin-top: 12px;
+    background: rgba(255, 255, 255, 0.025);
+    border-left: 3px solid #8b5e34;
+    border-radius: 3px;
+}
+
+.lore-item h3 {
+    color: #e8dcc8;
+    font-size: 19px;
+    margin: 0 0 8px;
+}
+
+.lore-item {
+    text-align: center;
+    margin: 40px 0;
+}
+.lore-item ul {
+    display: block;
+    margin: 10px 0;
+    list-style-type: none;
+    padding-left: 25px;
+    overflow: visible;
+    background: none;
+    text-align: left;
+
+}
+
+.lore-item ul li {
+    display: list-item;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+
+.lore-item ul li a {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: #c8bba7;
+    text-decoration: underline;
+}
+
+.lore-item ul li a:hover {
+    background: none;
+    color: #d1a465;
+}
 
 
 
@@ -427,10 +524,19 @@ a {
         font-size: 23px;
     }
 
-    .install-warning {
+    .lore-page {
+        padding: 14px;
+        margin: 30px auto;
+    }
+
+    .lore-card {
         padding: 20px 16px;
     }
-    
+
+    .lore-card h2 {
+        font-size: 23px;
+    }
+
 }
 
 
