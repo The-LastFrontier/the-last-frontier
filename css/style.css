@@ -3,8 +3,8 @@ body {
     background: #17100C;
     color: #e8dcc8;
     font-family: Georgia, serif;
-background-image: url('../background2.jpg'),url('../background3.jpg');
-  background-repeat: no-repeat, no-repeat;
+background-image: url('../background2.jpg');
+  background-repeat: repeat-y;
   background-position: center;
     background-size: 100% auto;
 
