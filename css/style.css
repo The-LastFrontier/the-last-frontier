@@ -22,7 +22,7 @@ background-image: url('../rdrbackground.jpg');
 }
 
 header {
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     background: rgba(35, 23, 15, 0.85);
     border-bottom: 1px solid rgba(166, 107, 63, 0.4);
