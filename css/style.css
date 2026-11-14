@@ -71,8 +71,15 @@ header {
 /* Dropdown */
 
 .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
     background-color: #493020;
+    min-width: 180px;
     border: 1px solid #A66B3F;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 10;
 }
 
 .dropdown-content a {
