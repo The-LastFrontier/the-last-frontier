@@ -4,9 +4,11 @@ body {
     color: #e8dcc8;
     font-family: Georgia, serif;
 background-image: url('../background2.jpg');
-  background-repeat: space;
+  background-repeat: no-repeat;
   background-position: center;
     background-size: 100% auto;
+      background-attachment: fixed;
+
 
 }
 
