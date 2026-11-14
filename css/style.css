@@ -179,6 +179,11 @@ h2 {
     font-size: clamp(32px, 5vw, 48px);
     margin-bottom: 10px;
 }
+.rules-intro h2 {
+    color: #e8dcc8;
+    font-size: clamp(28px, 5vw, 32px);
+    margin-bottom: 10px;
+}
 
 .rules-intro p {
     color: #bba88e;
