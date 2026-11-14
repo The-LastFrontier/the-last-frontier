@@ -4,7 +4,7 @@ body {
     color: #e8dcc8;
     font-family: Georgia, serif;
 background-image: url('../background2.jpg');
-  background-repeat: repeat-y;
+  background-repeat: round;
   background-position: center;
     background-size: 100% auto;
 
