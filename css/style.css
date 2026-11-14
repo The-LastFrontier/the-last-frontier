@@ -596,6 +596,20 @@ div.gallery-item div.desc {
     .lore-card h2 {
         font-size: 23px;
     }
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logo img {
+        height: 55px;
+    }
 
 }
 
