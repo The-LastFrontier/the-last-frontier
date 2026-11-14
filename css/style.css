@@ -634,6 +634,11 @@ div.gallery-item div.desc {
         height: 55px;
     }
 
+       body {
+        background-attachment: scroll;
+        background-size: auto 100%;
+        background-position: center top;
+    }
 }
 
 
