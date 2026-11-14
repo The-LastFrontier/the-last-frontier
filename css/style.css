@@ -462,10 +462,11 @@ h2 {
 
 .lore-item {
     padding: 14px 16px;
-    margin-top: 12px;
+    margin: 40px 0;
     background: rgba(255, 255, 255, 0.025);
     border-left: 3px solid #8b5e34;
     border-radius: 3px;
+    text-align: center;
 }
 
 .lore-item h3 {
@@ -474,10 +475,6 @@ h2 {
     margin: 0 0 8px;
 }
 
-.lore-item {
-    text-align: center;
-    margin: 40px 0;
-}
 .lore-item ul {
     display: block;
     margin: 10px 0;
