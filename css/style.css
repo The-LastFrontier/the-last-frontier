@@ -153,8 +153,7 @@ h2 {
     color: #e8dcc8;
 }
 
-
-a {
+.discord-button {
     display: inline-block;
     padding: 15px 30px;
     background: #8b5e34;
@@ -162,8 +161,6 @@ a {
     text-decoration: none;
     margin-top: 15px;
 }
-
-
 
 /* Rules page */
 .rules-page {
