@@ -3,11 +3,22 @@ body {
     background: #17100C;
     color: #e8dcc8;
     font-family: Georgia, serif;
-background-image: url('../background3.jpg');
+background-image: url('../rdrbackground.jpg');
   background-repeat: no-repeat;
   background-position: center;
     background-size: 100% auto;
 
+}
+
+/* Transparent text backgrounds */
+
+.text-panel {
+    background: rgba(35, 23, 15, 0.85);
+    border: 1px solid rgba(166, 107, 63, 0.5);
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin: 25px auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 header {
