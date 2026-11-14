@@ -20,6 +20,8 @@ header {
     justify-content: space-between;
     background-color: #493020;
     padding: 10px 30px;
+    border-bottom: 2px solid #A66B3F;
+
 }
 
 /* Logo */
