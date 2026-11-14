@@ -634,11 +634,15 @@ div.gallery-item div.desc {
         height: 55px;
     }
 
-       body {
+    body {
         background-attachment: scroll;
         background-size: auto 100%;
         background-position: center top;
     }
+    .text-panel {
+    background: rgba(35, 23, 15, 0.55);
+
+}
 }
 
 
